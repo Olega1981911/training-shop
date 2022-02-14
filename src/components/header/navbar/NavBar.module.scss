@@ -1,0 +1,25 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 66px;
+  border-bottom: 2px #F8F8F8 solid;
+  .logo {
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-left: 85px;
+  }
+  .navMenu {
+    position: relative;
+    margin-left: 79px;
+    display: block;
+    max-width: 100%;
+  }
+  .menuVisible {
+    position: relative;
+    display: block;
+    max-width: 172px;
+    margin-right: 81px;
+  }
+}

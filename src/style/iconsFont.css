@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'icons';
+  src:  url('../assets/fonts/icons.eot?blqt60');
+  src:  url('../assets/fonts/icons.eot?blqt60#iefix') format('embedded-opentype'),
+  url('../assets/fonts/icons.ttf?blqt60') format('truetype'),
+  url('../assets/fonts/icons.woff?blqt60') format('woff'),
+  url('../assets/fonts/icons.svg?blqt60#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="_icon-"]::before, [class*=" _icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons', serif !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+._icon-chevron-bottom:before {
+  content: "\e902";
+}
+._icon-chevron-left:before {
+  content: "\e903";
+}
+._icon-chevron-right:before {
+  content: "\e904";
+}
+._icon-clothes-hanger:before {
+  content: "\e906";
+}
+._icon-facebook:before {
+  content: "\e908";
+}
+._icon-instagram:before {
+  content: "\e90c";
+}
+._icon-location-marker2:before {
+  content: "\e90e";
+}
+._icon-logo-pinterest:before {
+  content: "\e90f";
+}
+._icon-pinterest:before {
+  content: "\e912";
+}
+._icon-share:before {
+  content: "\e916";
+}
+._icon-star:before {
+  content: "\e918";
+}
+._icon-twitter:before {
+  content: "\e91b";
+}
+._icon-view-grid:before {
+  content: "\e91d";
+}

@@ -1,0 +1,18 @@
+.menu {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.menu-item {
+    text-align: center;
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #121212;
+}
+.menu-item:not(:last-child){
+    margin-right: 32px;
+}

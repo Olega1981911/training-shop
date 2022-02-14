@@ -1,0 +1,27 @@
+.main {
+
+}
+.main-block__container {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 2fr repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+
+}
+.banner-slider {
+    grid-area: 1 / 1 / 3 / 2;
+}
+.banner1 {
+    grid-area: 1 / 2 / 2 / 3;
+
+}
+.banner2 {
+    grid-area: 1 / 3 / 2 / 4;
+
+}
+.banner3 {
+
+    grid-area: 2 / 2 / 3 / 4;
+}

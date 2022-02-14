@@ -1,0 +1,66 @@
+.topBar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  min-height: 24px;
+  width: 100%;
+  margin-top: 0;
+  //justify-content: space-between;
+  background: #121212;
+  .block {
+    position: relative;
+    display: flex;
+    margin-left: 85px;
+    align-items: center;
+    img {
+      margin-right: 8px;
+    }
+
+  }
+  .marker {
+    position: relative;
+    display: inline-flex;
+    margin-left: 26px;
+    align-items: center;
+    text-align: center;
+    img {
+      margin-right: 8px;
+    }
+  }
+  .clock {
+    position: relative;
+    display: inline-flex;
+    margin-left: 53px;
+    align-items: center;
+    img {
+      margin-right: 8px;
+    }
+  }
+  .social {
+    position: absolute;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    right: 85px;
+    .socialIcons {
+      margin-right: 10px;
+    }
+  }
+}
+.item {
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 12px;
+
+  /* white */
+
+  color: #FFFFFF;
+
+  opacity: 0.8;
+}

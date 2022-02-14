@@ -1,0 +1,20 @@
+.container-banner {
+    min-height: 200px;
+    max-width: 540px;
+}
+.text-banner {
+    position: relative;
+    background: #FFFFFF;
+    border-radius: 4px;
+    height: 48px;
+    margin-top: calc(50% - 48px/2);
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #121212;
+}
