@@ -1,10 +1,9 @@
 .container-slider {
-    max-width: 540px;
-    height: 490px;
-    //margin: 32px 0 0 85px;
+    min-width: 540px;
+    max-height: 490px;
     position: relative;
     overflow: hidden;
-
+    margin-right: 30px;
 }
 @media screen and (max-width: 700px){
     .container-slider {
@@ -56,17 +55,18 @@
     transform: translateY(-60%);
 }
 .container-text {
-
-    max-width: 289px;
+    width: 289px;
     height: 100px;
     margin: 195px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     border-radius: 4px;
-    z-index: 10;
+    z-index: 100;
+    opacity: 0.9;
+
 }
 .container-text h2 {
         font-family: Spartan;
@@ -77,6 +77,8 @@
     text-transform: uppercase;
         line-height: 25px;
         color: #121212;
+        opacity: 0.9;
+        margin-bottom: 24px;
     }
 
 .container-text h3 {
@@ -90,6 +92,6 @@
     margin-top: 24px;
     margin-bottom: 14px;
     color: #121212;
-
     opacity: 0.4;
+
 }

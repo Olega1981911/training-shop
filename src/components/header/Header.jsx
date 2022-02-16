@@ -1,9 +1,10 @@
 import React from 'react';
 import NavBar from "./navbar/NavBar";
 import TopBar from "./navbar/topBar/TopBar";
+import './Header.css'
 const Header = () => {
     return (
-        <div className='header__container' data-test-id='header'>
+        <div className='header' data-test-id='header'>
             <TopBar />
             <NavBar />
         </div>

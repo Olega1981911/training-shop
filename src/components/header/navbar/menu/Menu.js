@@ -6,7 +6,7 @@ import {MENU} from "../../../../constants/data";
 
 const Menu = () => {
     return (
-        <div className='menu' data-test-id='menu'>
+        <div className='menu __container' data-test-id='menu'>
             {MENU.map(({ id, path, name }) => (
                 <Link key={id} to={`${path}`} className='menu-item' data-test-id={`menu-link-${path}`}>
                     <span>{name}</span>

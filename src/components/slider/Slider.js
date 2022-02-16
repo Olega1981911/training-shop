@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import './Slider.css'
 import BtnSlider from './BtnSlider'
 import {dataSlider} from '../../constants/data'
-
+import bannerImg from '../../assets/image/1.jpg'
 export default function Slider() {
 
     const [slideIndex, setSlideIndex] = useState(1)
@@ -33,8 +33,9 @@ export default function Slider() {
                         className={slideIndex === index + 1 ? "slide active-anim" : "slide"}
                     >
                         <img
-                            src={process.env.PUBLIC_URL + `/assets/image/${index + 1}.jpg`}
-                        />
+                            src={bannerImg}
+                            /*src={process.env.PUBLIC_URL + `/${index + 1}.jpg`}*/
+                         alt=""/>
                     </div>
                 )
             })}
@@ -44,7 +45,6 @@ export default function Slider() {
                 <h3>Banner</h3>
                 <h2>your Title text </h2>
             </div>
-
         </div>
     )
 }

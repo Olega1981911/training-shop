@@ -2,7 +2,7 @@ import search from '../assets/image/icons/search.svg';
 import globe from '../assets/image/icons/globe.svg';
 import user from '../assets/image/icons/user.svg';
 import bag from '../assets/image/icons/shopping-bag.svg';
-import women from '../assets/image/womenBanner.png';
+
 import men from '../assets/image/menBanner.png';
 import accessories from '../assets/image/2.jpg';
 import { v4 as uuidv4 } from "uuid";
@@ -54,19 +54,15 @@ export const dataSlider = [
     },
 ];
 
-export const DATA_BANNER = [
-    {
-        id: uuidv4(),
-        title: 'women',
-        img: women
-    },
+export const banner = [
+
     {
         id: uuidv4(),
         title: 'men',
         img: men
     },
     {
-        id: uuidv4,
+        id: uuidv4(),
         title: 'accessories',
         img: accessories
     },
