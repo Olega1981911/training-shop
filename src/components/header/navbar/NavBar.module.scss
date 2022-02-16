@@ -1,9 +1,9 @@
 .nav {
+  margin: 0 35px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   min-height: 66px;
-  border-bottom: 2px #F8F8F8 solid;
   .logo {
     position: relative;
     display: block;
@@ -13,6 +13,7 @@
   .navMenu {
     position: relative;
     margin-left: 79px;
+    margin-right: 128px;
     display: block;
     max-width: 100%;
   }

@@ -2,7 +2,7 @@ import React from 'react';
 import {Route} from "react-router-dom";
 import AppRouter from "./components/AppRouter";
 import Header from "./components/header/Header";
-import "./style/base.scss"
+import classes from "./style/base.module.scss"
 import MainPage from "./components/main-blocks/MainPage";
 import Women from "./pages/Women";
 import Men from "./pages/Men";
@@ -14,7 +14,7 @@ function Routes(props: { children: ReactNode }) {
 
 const App = () => {
     return (
-            <div className="wrapper app" data-test-id='app'>
+            <div className={classes.app} data-test-id='app'>
                 <Header />
                 <Routes >
                     <Route index element = {<MainPage />} />

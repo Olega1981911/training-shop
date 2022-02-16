@@ -1,0 +1,9 @@
+.header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    width: 100%;
+    border-bottom: 2px #F8F8F8 solid;
+}
+

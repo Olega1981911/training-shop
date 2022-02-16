@@ -1,18 +1,14 @@
 import React from 'react';
-import {DATA_BANNER} from "../../../constants/data";
-import './Banner.css'
-const Banner = () => {
+
+import classes from'./Banner.module.scss'
+const Banner = ({title, img, id}) => {
     return (
-        <>
-            {DATA_BANNER.map((id,title, img) => {
-                return(
-                    <div key={id.toString()} className="container-banner">
+                    <div key={id} className={classes.containerBanner}>
                         <img src={img} alt=" "/>
-                        <h2 className='text-banner'>{title}</h2>
+                        <button className={classes.textBanner}><span className={classes.text}>{title}</span></button>
                     </div>
 
-            )})}
-        </>
+
     );
 };
 
