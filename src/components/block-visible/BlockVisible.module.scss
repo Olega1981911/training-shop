@@ -1,0 +1,9 @@
+.menuVisible {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  .visibleItem:not(:last-child) {
+    margin-right: 24px;
+  }
+}

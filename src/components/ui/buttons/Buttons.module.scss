@@ -1,0 +1,28 @@
+$buttonDark: #121212;
+$buttonGrey: #e6e6e6;
+$buttonGrWhite: #f8f8f8;
+$buttonGrayDark: #9c9c9c;
+ button {
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border: 2px solid $buttonDark;
+  box-sizing: border-box;
+  color: #FFFFFF;
+}
+
+button:hover {
+  color: $buttonDark;
+  background: $buttonGrey;
+  border: 2px solid $buttonGrey;
+}
+
+button:active {
+  background: $buttonGrayDark;
+  border: 2px solid $buttonGrayDark;
+  color: #FFFFFF;
+}

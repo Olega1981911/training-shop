@@ -1,0 +1,26 @@
+.nav {
+  margin: 0 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 66px;
+  .logo {
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-left: 85px;
+  }
+  .navMenu {
+    position: relative;
+    margin-left: 79px;
+    margin-right: 128px;
+    display: block;
+    max-width: 100%;
+  }
+  .menuVisible {
+    position: relative;
+    display: block;
+    max-width: 172px;
+    margin-right: 81px;
+  }
+}

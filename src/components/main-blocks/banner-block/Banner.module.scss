@@ -1,0 +1,39 @@
+.containerBanner {
+    position: relative;
+    /*max-width: 540px;
+    max-height: 260px;*/
+
+    img {
+        height: 100%;
+        width: 100%;
+    }
+    .textBanner {
+        position: absolute;
+        background: #FFFFFF;
+        border-radius: 4px;
+        height: 48px;
+        width: auto;
+        left: 27.06%;
+        right: 26.67%;
+        top: calc(50% - 48px / 2);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0;
+        //margin-top: calc(50% - 48px/2);
+    }
+
+    .text {
+        width: 100%;
+        font-family: Spartan;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #121212;
+        margin: 0;
+    }
+}
